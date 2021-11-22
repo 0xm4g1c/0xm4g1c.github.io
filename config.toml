@@ -1,0 +1,38 @@
+baseurl = "https://example.com/"
+languageCode = "en-us"
+theme = "hugo-theme-terminal"
+paginate = 5
+
+[params]
+  contentTypeName = "posts"
+  themeColor = "green"
+  showMenuItems = 2
+  fullWidthTheme = false
+  centerTheme = true
+  favicon = '/favicon.ico'
+
+[languages]
+  [languages.en]
+    title = "0xm4g1c"
+    subtitle = "Info-Sec, Cyber-Security"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "0xm4g1c"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "Whoami"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "/"
+        name = "Blog"
+        url = "/"
+
+      
